@@ -5,29 +5,14 @@ A full-stack end-to-end encrypted messaging and file sharing application with cu
 ## 🎯 Project Overview
 
 This project implements a secure messaging system with the following security features:
-- ✅ End-to-end encryption (AES-256-GCM)
-- ✅ Custom key exchange protocol (ECDH + RSA signatures)
-- ✅ Replay attack protection (nonces, timestamps, sequence numbers)
-- ✅ MITM attack prevention (digital signatures)
-- ✅ Secure key storage (client-side encrypted IndexedDB)
-- ✅ Encrypted file sharing
-- ✅ Comprehensive security logging and monitoring
-
-## 📋 Requirements Fulfilled
-
-| # | Requirement | Status |
-|---|-------------|--------|
-| 1 | User Authentication | ✅ Complete |
-| 2 | Key Generation & Secure Storage | ✅ Complete |
-| 3 | Secure Key Exchange Protocol | ✅ Complete |
-| 4 | End-to-End Message Encryption | ✅ Complete |
-| 5 | End-to-End File Sharing | ✅ Complete |
-| 6 | Replay Attack Protection | ✅ Complete |
-| 7 | MITM Attack Demonstration | ✅ Complete |
-| 8 | Logging & Security Auditing | ✅ Complete |
-| 9 | Threat Modeling (STRIDE) | ⚠️ Documentation Only |
-| 10 | System Architecture & Docs | ⚠️ Documentation Only |
-
+- End-to-end encryption (AES-256-GCM)
+- Custom key exchange protocol (ECDH + RSA signatures)
+- Replay attack protection (nonces, timestamps, sequence numbers)
+- MITM attack prevention (digital signatures)
+- Secure key storage (client-side encrypted IndexedDB)
+- Encrypted file sharing
+- Comprehensive security logging and monitoring
+- 
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -37,10 +22,7 @@ This project implements a secure messaging system with the following security fe
 
 ### Installation
 
-1. **Clone the repository** (if applicable)
-```bash
-cd c:/Fast_Nukes_Universiry/Semester_7/Info_Sec/Project
-```
+1. **Clone the repository** 
 
 2. **Install server dependencies**
 ```bash
@@ -289,38 +271,13 @@ Project/
 
 ## 📝 For Report/Documentation
 
-### Screenshots Needed
-1. ✅ User registration and login
-2. ✅ Key exchange process (all 4 steps)
-3. ✅ Encrypted message sending/receiving
-4. ✅ Encrypted file upload/download
-5. ✅ Security logs dashboard
-6. ✅ MITM demo output
-7. ✅ Replay attack demo output
-8. ✅ Browser DevTools showing encrypted data in IndexedDB
-
-### Diagrams Needed
-1. ⚠️ System architecture diagram
-2. ⚠️ Key exchange protocol flow
-3. ⚠️ Message encryption/decryption flow
-4. ⚠️ Database schema (ER diagram)
-5. ⚠️ STRIDE threat model
-
 ### Code to Highlight in Report
 - Custom key exchange protocol: `client/src/components/KeyExchangeManager.jsx`
 - Replay detection: `server/services/replayDetector.js`
 - Security logging: `server/services/securityLogger.js`
 - Encryption utilities: `client/src/utils/cryptoUtils.js`
 
-## 🎓 Educational Use
 
-This project is for educational purposes as part of an Information Security course. The implementations demonstrate:
-- Secure communication protocols
-- Cryptographic best practices
-- Attack prevention techniques
-- Security logging and monitoring
-
-**⚠️ Warning**: This is a prototype for educational purposes. For production use, additional security hardening, code review, and penetration testing would be required.
 
 ## 📚 References
 
@@ -329,16 +286,3 @@ This project is for educational purposes as part of an Information Security cour
 - AES-GCM: https://en.wikipedia.org/wiki/Galois/Counter_Mode
 - STRIDE: https://en.wikipedia.org/wiki/STRIDE_(security)
 
-## 👥 Team
-
-[Add your team members' names here]
-
-## 📄 License
-
-Educational project - All rights reserved
-
----
-
-**Last Updated**: December 2025
-**Version**: 1.0.0
-**Status**: Implementation Complete, Documentation Pending
