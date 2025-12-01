@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Build outputs
+client/dist/
+client/build/
+
+# Logs
+*.log
+npm-debug.log*
+server/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Exclude all markdown files except main README.md
+*.md
+!README.md
+
+# Exclude PDF
+*.pdf
+
+# Database
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
